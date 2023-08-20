@@ -47,7 +47,22 @@ header{
             color: #fff;
             font-family: 'Courgette', cursive;
             font-size: 14px;
+            position: relative;
+            margin: 10px 20px 10px 20px;
+            border: 1px solid blue;
         }
+            header .menu a::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -2px;
+                height: 2px;
+                width: 70%;
+                background-color: #fff;
+                -webkit-transition: all 0.3s ease 0s;
+                -o-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+            }
         /* a End */
     /* menu End */
 /* Header End */
