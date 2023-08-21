@@ -12,3 +12,9 @@ function img () {
 }
 setInterval(img, 1000);
 // gallery End
+// prodcut
+function changimg(color,div){
+    let img=document.querySelector(`.product-item .item-${div} img `);
+    img.src=`./assets/product/${div} ${color}.png`
+}
+// prodcut End 

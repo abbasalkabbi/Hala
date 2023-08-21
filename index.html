@@ -18,8 +18,8 @@
             <a href="#gallery">
                 Gallery
             </a>
-            <a href="#about">
-                About
+            <a href="#product">
+                Product
             </a>
         </div>
     </header>
@@ -62,14 +62,91 @@
     <!-- Home End -->
     <!-- gallery -->
     <div class="gallery" id="gallery">
-        <h2> 
+        <h2 class="title"> 
             Gallery
         </h2>
         <div class="slider-img">
-            <img src="./assets/home-img.png" alt="">
+            <img src="./assets/gallery/1.jpg" alt="">
         </div>
     </div>
     <!-- gallery End -->
+    <!--  product -->
+    <div class="product" id="product">
+        <!-- title -->
+        <h2 class="title"> 
+            Product
+        </h2>
+        <!-- title End -->
+        <!-- product  -->
+        <ul class="product-item">
+            <!-- item -->
+            <li class="item item-1200">
+                <div class="head">
+                    <img src="./assets/product/1200 fay.png">
+                </div>
+                <div class="item-info">
+                    <p>
+                        <samp>1200</samp>
+                        <span>:الحجم </span> 
+                    </p>
+                    <p>
+                        <samp>32,000</samp>
+                        <span>:السعر </span> 
+                    </p>
+                    <ul>
+                        <li style="background-color: #26CEAA;" onclick="changimg('fay','1200')"></li>
+                    </ul>
+                </div>
+            </li>
+            <!-- item End -->
+            <!-- item -->
+            <li class="item item-750" >
+                <div class="head">
+                    <img src="./assets/product/750 fay.png">
+                </div>
+                <div class="item-info">
+                    <p>
+                        <samp>750</samp>
+                        <span>:الحجم </span> 
+                    </p>
+                    <p>
+                        <samp>24,000</samp>
+                        <span>:السعر </span> 
+                    </p>
+                    <ul>
+                        <li style="background-color: #26CEAA;" onclick="changimg('fay','750')"></li>
+                        <li style="background-color: green" onclick="changimg('green','750')"></li>
+                        <li style="background-color: #7b8bb6 " onclick="changimg('light blue','750')"></li>
+                        <li style="background-color: gray" onclick="changimg('gray','750')"></li>
+                    </ul>
+                </div>
+            </li>
+            <!-- item End -->
+            <!-- item -->
+            <li class="item item-500" >
+                <div class="head">
+                    <img src="./assets/product/500 fay.png">
+                </div>
+                <div class="item-info">
+                    <p>
+                        <samp>500</samp>
+                        <span>:الحجم </span> 
+                    </p>
+                    <p>
+                        <samp>18,000</samp>
+                        <span>:السعر </span> 
+                    </p>
+                    <ul>
+                        <li style="background-color: #26CEAA;" onclick="changimg('fay','500')"></li>
+                        <li style="background-color: #7b8bb6 " onclick="changimg('light blue','500')"></li>
+                    </ul>
+                </div>
+            </li>
+            <!-- item End -->
+        </ul>
+        <!-- product End -->
+    </div> 
+    <!--  product  End-->
     <script src="./app.js"></script>
 </body>
 </html>
