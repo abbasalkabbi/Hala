@@ -222,6 +222,8 @@ header{
                     text-align: right;
                     font-size: 32px;
                     font-family: 'Courier New', Courier, monospace;
+                    display: flex;
+                    justify-content: flex-end;
                 }
                     .product .product-item .item .item-info p span{
                         text-align: right;
@@ -244,6 +246,7 @@ header{
                     border-radius: 50%;
                     list-style: none;
                     background-color: #000;
+                    cursor: pointer;
                 }
                 /* color End */
             /* item-info End */
