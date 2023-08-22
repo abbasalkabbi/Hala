@@ -21,6 +21,7 @@ header{
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 99;
 }
    /* logo */
     header .logo{
