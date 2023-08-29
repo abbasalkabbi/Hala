@@ -275,13 +275,13 @@ header{
         margin: 100px 0px 100px 0px;
     }
     /* links */
-    ul{
+    .contact ul{
         list-style: none;
     }
-        ul a {
+        .contact ul a {
             text-decoration: none;
         }
-            ul a svg{
+            .contact ul a svg{
                 color: blue;
             }
     /* links End  */
@@ -323,3 +323,34 @@ header{
         /* button end*/
     /* contact form end */
 /* contact  End */
+/* Footer */
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: #70bf42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    footer h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: #fff;
+        font-size: 20px;
+    }
+        footer h1 a{
+            text-decoration: none;
+            color: #000;
+        }
+    footer ul{
+        list-style: none;
+        display: flex;
+    }
+    footer ul li{
+        margin: 5px;
+    }
+    footer ul li svg{
+        width: 24px;
+        height: 24px;
+    }
+/* Footer End  */
