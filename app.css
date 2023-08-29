@@ -176,7 +176,7 @@ header{
     .gallery .slider-img img{
         height: 950px;
         width: 750px;
-        border: 5px dotted  #70bf42;;
+        border: 5px dotted  #70bf42;
         margin: 0px 0px 40px 0px;
     }
 /* gallery End */
@@ -184,7 +184,6 @@ header{
 .product{
     width: 100vw;
     min-height: 100vh;
-    max-height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,3 +259,67 @@ header{
         /* item End */
     /* product-item End */
 /* product End */
+/* contact */
+.contact{
+    width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    height: 100vh;
+    margin: 200px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .contact .title{
+        text-align: center;
+        margin: 100px 0px 100px 0px;
+    }
+    /* links */
+    ul{
+        list-style: none;
+    }
+        ul a {
+            text-decoration: none;
+        }
+            ul a svg{
+                color: blue;
+            }
+    /* links End  */
+    /* contact form */
+    .contact form{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top:40px;
+    }
+        /* input */
+        .contact form input,textarea{
+            width: 500px;
+            height: 50px;
+            margin: 10px 0px 10px 0px;
+            border:none ;
+            border-bottom:2px solid #72aa51a8;
+            text-align: center;
+        }
+            .contact form input:focus,textarea:focus{
+                border-bottom:2px solid #70bf42;
+                outline: none;
+            }
+        /* End input */
+        /* button */
+        .contact form button{
+            border:2px solid #fff;
+            background-color:#72aa51a8;
+            cursor: pointer;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 24px;
+            padding: 10px 20px 10px 20px;
+        }
+            .contact form button:hover{
+                background-color: #70bf42;
+            }
+        /* button end*/
+    /* contact form end */
+/* contact  End */
