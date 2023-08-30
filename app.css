@@ -422,4 +422,16 @@ header{
         /* ul End */
     /* home-info End */
 /* hOME End */
+/* gallery */
+.gallery{
+}   
+    .gallery .slider-img{
+
+    }
+    .gallery .slider-img img{
+        height: 100%;
+        width: 100%;
+        border: 2px dotted  #70bf42;
+    }
+/* gallery End */
 }
