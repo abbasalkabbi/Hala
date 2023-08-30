@@ -360,9 +360,6 @@ header{
     justify-content: normal;
 }
    /* logo */
-    header .logo{
-        border: #000 solid 1px;
-    }
         /* img */
         header .logo img{
             width: 60px;
@@ -434,4 +431,46 @@ header{
         border: 2px dotted  #70bf42;
     }
 /* gallery End */
+/* product */
+.product{
+    padding: 100px 0px;
+    height: fit-content;
+}
+    /* product-item */
+    .product .product-item{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+        /* item */
+        .product .product-item .item{
+            margin: 20px 0px;
+        }
+        /* item End */
+    /* product-item End */
+/* product End */
+/* contact */
+.contact{
+}
+    /* contact form */
+    .contact form{
+        width: 100%;
+    }
+        /* input */
+        .contact form input,textarea{
+            width: 90%;
+        }
+        /* End input */
+    /* contact form end */
+/* contact  End */
+/* Footer */
+footer{
+}
+    footer h1{
+        font-size: 18px;
+    }
+/* Footer End  */
 }

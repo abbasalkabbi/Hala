@@ -15,10 +15,9 @@ var home=document.querySelector(".home")
 var gallery=document.querySelector(".gallery")
 var product=document.querySelector(".product")
 var contact=document.querySelector(".contact")
-console.log(gallery)
 
 window.addEventListener("scroll",function(){
-    console.log(isInViewport(gallery))
+    console.log(isInViewport(product))
     if(isInViewport(home)){
         console.log("Home")
         a[0].classList.add("active")
@@ -27,13 +26,14 @@ window.addEventListener("scroll",function(){
         a[3].classList.remove("active")
     } 
     if(isInViewport(gallery)){
-        console.log("Nav")
+        console.log("gallery")
         a[0].classList.remove("active")
         a[1].classList.add("active")
         a[2].classList.remove("active")
         a[3].classList.remove("active")
     }
     if(isInViewport(product)){
+        console.log("product")
         a[0].classList.remove("active")
         a[1].classList.remove("active")
         a[2].classList.add("active")
