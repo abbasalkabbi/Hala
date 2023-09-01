@@ -354,7 +354,7 @@ footer{
         height: 24px;
     }
 /* Footer End  */
-@media screen  And (max-width:600px){
+@media screen  And (max-width:850px){
     /* Header */
 header{
     justify-content: normal;
@@ -420,11 +420,7 @@ header{
     /* home-info End */
 /* hOME End */
 /* gallery */
-.gallery{
-}   
-    .gallery .slider-img{
 
-    }
     .gallery .slider-img img{
         height: 100%;
         width: 100%;
@@ -453,8 +449,7 @@ header{
     /* product-item End */
 /* product End */
 /* contact */
-.contact{
-}
+
     /* contact form */
     .contact form{
         width: 100%;
@@ -467,8 +462,7 @@ header{
     /* contact form end */
 /* contact  End */
 /* Footer */
-footer{
-}
+
     footer h1{
         font-size: 18px;
     }

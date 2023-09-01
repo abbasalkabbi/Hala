@@ -6,7 +6,7 @@ function isInViewport(elem) {
         bounding.top >= -100 &&
         bounding.left >= 0 &&
         bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        bounding.right-100 <= (window.innerWidth || document.documentElement.clientWidth)
+        bounding.right -100 <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
 // isInViewport End
@@ -25,25 +25,32 @@ window.addEventListener("scroll",function(){
         a[2].classList.remove("active")
         a[3].classList.remove("active")
     } 
-    if(isInViewport(gallery)){
+    else if(isInViewport(gallery)){
         console.log("gallery")
         a[0].classList.remove("active")
         a[1].classList.add("active")
         a[2].classList.remove("active")
         a[3].classList.remove("active")
     }
-    if(isInViewport(product)){
+    else if(isInViewport(product)){
         console.log("product")
         a[0].classList.remove("active")
         a[1].classList.remove("active")
         a[2].classList.add("active")
         a[3].classList.remove("active")
     }
-    if(isInViewport(contact)){
+    else if(isInViewport(contact)){
         a[0].classList.remove("active")
         a[1].classList.remove("active")
         a[2].classList.remove("active")
         a[3].classList.add("active")
+    }
+    // fix product For moblie 
+    else{
+        a[0].classList.remove("active")
+        a[1].classList.remove("active")
+        a[2].classList.add("active")
+        a[3].classList.remove("active")
     }
 })
 // Header End
